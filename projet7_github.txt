@@ -1,0 +1,62 @@
+
+https://github.com/Rajalod75
+
+ user : Rajalod75
+ login : rachid.paris.1@gmail.com
+ password : aqwwqa123450@5
+ 
+ 
+ windows  > git bash
+ 
+cd c:
+/c/__workspace/OC_GitHub/P7_LB
+ 
+ référence : https://www.fxparlant.net/github-ajouter-un-projet-deja-cree/
+ 
+
+  
+  
+  Créer le projet sur Github.com, en ne mettant PAS de Readme. Il vaut mieux l’ajouter après, une fois que les fichiers ont été uploader, pour éviter tout conflit.
+  
+		or create a new repository on the command line
+
+		echo "# OpenClassroom" >> README.md
+		git init
+		git add README.md
+		git commit -m "first commit"
+		git branch -M main
+		git remote add origin https://github.com/Rajalod75/OpenClassroom.git
+		git push -u origin main
+
+		…or push an existing repository from the command line
+
+		git remote add origin https://github.com/Rajalod75/OpenClassroom.git
+		git branch -M main
+		git push -u origin main
+  
+   git init
+   git add OC_GitHub
+ 
+  git commit -m "Commit projet 7"
+  
+  
+  Copier le lien vers le répertoire, situé généralement en haut du projet dans une boite bien visible: le lien se termine par « .git »
+ 
+    git remote add origin https://github.com/Rajalod75/OpenClassroom.git
+	
+	la commande qui va finalement envoyer les fichiers
+
+	 
+	git branch -M main
+	git push -u origin main
+	
+---------------------------------------
+cd  /c/__workspace/OC_GitHub/
+ 
+
+ git init
+ git add P7_Scoring_Credit
+ git commit -m "Commit projet 7" 
+ git remote add origin https://github.com/Rajalod75/OpenClassroom.git
+ git branch -M main
+ git push -u origin main 
